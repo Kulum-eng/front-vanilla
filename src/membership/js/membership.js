@@ -1,4 +1,4 @@
-const API_URL = "https://tuapi.com/membership";
+const API_URL = "http://localhost:8080/membership/";
 
 async function fetchMemberships() {
     const response = await fetch(API_URL);
